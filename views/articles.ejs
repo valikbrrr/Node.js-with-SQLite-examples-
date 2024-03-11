@@ -1,0 +1,9 @@
+<%- include ("head"); -%>
+
+    <% articles.forEach((article) => { %>
+        <div class="alert alert-primary" style="margin-top: 10px;" role="alert"> 
+            <%= article.title %>
+        </div>
+    <% }) %>
+
+<%- include ("foot"); -%> 
